@@ -13,7 +13,7 @@ packer(global.config.src + global.config.dirs.css + '/plugins/_seed-packs.scss')
 
 // Setup harvester
 var includePaths = harvester(
-  // Add additional sass paths here
+  './node_modules/reveal.js/css/'
 );
 
 gulp.task('styles-base', function(callback) {

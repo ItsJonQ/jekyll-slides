@@ -8,7 +8,6 @@ gulp.task('build-jekyll-incremental', function(callback) {
   runSequence(
     'jekyll-incremental',
     [
-      'copy-fonts',
       'scripts-base'
     ],
     'browsersync-reload',

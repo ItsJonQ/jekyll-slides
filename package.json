@@ -37,6 +37,7 @@
     "yargs": "^7.0.1"
   },
   "dependencies": {
+    "reveal.js": "^3.4.1",
     "sass-pathfinder": "0.0.5",
     "seed-harvester": "0.1.5",
     "seed-packer": "0.0.10"

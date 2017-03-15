@@ -32,3 +32,18 @@ keep_files:
   - images
   - js
   - "*.xml"
+
+# Collections
+collections:
+  slides:
+    output: true
+    permalink: /slides/:path/
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "slides"
+    values:
+      layout: null
